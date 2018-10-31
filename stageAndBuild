@@ -5,4 +5,4 @@
 # and logout and login again
 # sudo usermod -a -G docker $USER
 
-sbt clean stage && docker build -t ufox/homemade-starter .
+sbt clean stage && docker build -t play-hello-world-docker .
