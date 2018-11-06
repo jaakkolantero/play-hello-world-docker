@@ -4,7 +4,14 @@ Simple helloworld scala app with play framework. Docker files included.
 
 ## Getting Started
 
-Run app and head to http://localhost:9000/
+From __conf__ folder change __production_example.conf__ to __production.conf__.
+
+Run app
+
+```
+sbt run
+```
+and head to http://localhost:9000/
 
 ### Prerequisites
 
@@ -12,14 +19,6 @@ Run app and head to http://localhost:9000/
 * Play framework ~2.6.18
 * SBT ~1.2.4
 
-
-### Installing
-
-to run app
-
-```
-sbt run
-```
 
 ## Deployment
 
